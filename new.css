@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+.navbar{
+    
+    display: flex;
+    background: rgba(173, 216, 230, 0.845);
+    justify-content: space-around;
+    padding:25px 0; 
+    text-transform: uppercase;
+    
+    
+   
+
+}
+.navbar .logo{
+    margin: 10px;
+}
+
+.navbar .navtext ul{
+    display:flex;
+    gap: 30px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding:40px 0;
+    font-family: sans-serif;  
+}
+
+.background {
+    background-image:url(./image/Snapchat-631346661.jpg);
+    padding:200px 0 ;
+    background-size: cover;
+   
+
+}
+.background .text h1{
+    font-size: 50px;
+    color:white;
+    text-align:start;
+    margin-left: 250px;
+  
+
+    
+    
+}
+.background .text p{
+    font-size: 25px;
+    color:white;
+    text-align: start;
+    margin-left: 150px;
+    text-align-last: 100px;
+   
+
+}
+.btn{
+    color: white;
+    background: red;
+    font-weight: bold;
+    padding: 12px 45px;
+    width: fit-content;
+    border: 1px solid transparent;
+    width: fit-content;
+    display: grid;
+    position: relative;
+     border-radius: 15px;
+    margin-left: 250px;
+    font-weight: bold;
+    padding: 15px 40px;
+}
+.btn:hover{
+    background:rgba(0, 166, 255, 0.856);
+    border:2px solid black;
+    color:black;
+}
+.Upcoming{
+    background: lightgray;
+    text-align: center;
+    margin:20px 300px ;
+    padding: 15px 0;
+
+}
+
+.events{
+    background:rgba(233, 223, 217, 0.916);
+    margin: 0 250px;
+    font-weight: 700px;
+    position: static;
+    
+    
+}
+/* .events .new-event ul p img{
+    display:flex;
+    gap: 10px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding:20px 10px;
+    position: relative;
+}
+.events .new-event ul p{
+    gap: 10px;
+    font-weight: 800px;
+    font-size: 20px;
+    padding:20px 10px;
+    text-align: start;
+display: flex;
+
+}
+.faltu {
+    background:rgba(233, 223, 217, 0.916);
+    margin: 10px 250px;
+    font-weight: 800px;
+    position:relative;
+    display: flex;
+}
+.faltu.extra h1{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px 0;
+    margin: 0 100px;
+  
+    
+} */
+.events .name p{
+    display: grid;
+    justify-content: center;
+    color: blue;
+    
+}
+.events .name .btn{
+    background:blue ;
+    padding: 0 30px;
+    margin: 20px 700px;
+}
+.events .name .btn:hover{
+    background:rgba(0, 166, 255, 0.856);
+    border:2px solid black;
+    color:black;
+}
+
+
+.photo{
+    background:lightgreen;
+    margin: 40px 200px;
+    padding: 20px 20px;
+}
+.photo h1{
+    gap: 40px;
+}
+.About{
+    background: rgba(128, 128, 128, 0.721);
+    margin: 0 100px;
+    font-weight: 700px;
+    position: static;
+    padding: 20px 20px;
+
+}
+.About .details{
+    margin: 0 30px;
+    font-size: 20px;
+
+}
+.About .details em strong {
+    color: brown;
+
+}
+
+.About .details table{
+    border-collapse: collapse;
+    width: 100;
+    font-size:15px;
+    text-align: center;
+
+}
+.About .details table tbody th{
+    border: 2px solid black;
+    padding: 20px 60px;
+}
+.hii{
+    background: rgb(125, 199, 245);
+    margin: 10px 0;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.hii h1{
+    padding:20px 550px ;
+    font-size: 30px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+.contact{
+    background: rgb(125, 199, 245);
+    margin: 10px 10px;
+    display: flex;
+    background-size: cover;
+    
+}
+.contact .us{
+    display: flex;
+    padding: 40px 550px;
+    background-size: cover;
+}
+.contact .us .btn { 
+    background: rgb(20, 62, 88);
+    padding: 0 30px;
+    font-size: 25px;
+    margin: 20px 700px;
+    padding: 12px 25px;
+}
+.contact .us .btn:hover{
+    color:rgb(20, 62, 88); 
+    border: 2px solid rgb(20, 62, 88); 
+    background-color: transparent;
+}
+
+.last{
+    background-size: cover;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.contact input{
+    width: 400px;
+    height: 50px;
+    padding: 13px;
+    font-size: 20px;
+}
+.contact a{
+    border: 2px solid black;
+    padding: 13px;
+    border-radius: 4px;
+    background-color: rgb(20, 62, 88);  
+    color: white;
+    margin-left:  180px;
+    /* margin-top: 30px; */
+    width: fit-content;
+}
+
+.footer1{
+    margin-top:10px;
+    background-color: var(--footer-bg);
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-col1 .logo img{
+    width: 250px;
+}
+.footer-col1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* width: 25%; */
+}
+.address,.tele,.email{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer-col1 .address span , .tele span,.email span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-col1 .address p , .tele p,.email p{
+    font-size: 20px;
+}
+.footer-col2,.footer-col3,.footer-col4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* width: 25%; */
+}
+.footer-col2 p , .footer-col3 p{
+    font-size: 25px;
+    font-family: var(--mont-family);
+}
+.footer-col4 p{
+    font-size: 20px;
+    font-family: var(--mont-family);
+}
+.footer-col4 input{
+    width: 300px;
+    font-size: 20px;
+    padding: 20px;
+    height: 40px;
+}
+.e-s{
+    display: flex;
+    align-items: center;
+}
+.footer-col4 .e-s a{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 33px;
+}
+.footer-end{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.footer-end span{
+    color: yellow;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.footer-end p{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+
+
+
